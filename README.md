@@ -1,5 +1,5 @@
 # dropletfusion
-Following a successful fusion experiment as described in the article 'Fusion speed of biomolecular condensates' by Ghosh and Zhou, deposit the hd5 file and corresponding video exported from BlueLake (of LUMICKS C-Trap) in different folders containing the respective matlab files for analysis.
+Following a successful fusion experiment as described in the article 'Fusion speed of biomolecular condensates' by Ghosh and Zhou, deposit the hdf file and corresponding video exported from BlueLake (of LUMICKS C-Trap) in different folders containing the respective matlab files for analysis.
 Run matlab.
 Run the file 'forcefit.m' on hdf file containing force data to obtain the value of fusion time 'Tau'.
 Command line execution example: Tau = forcefit('forcefile.h5','k.','r')
